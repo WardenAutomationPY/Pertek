@@ -9,8 +9,6 @@ area_th = 1000
 file = 'images/modelA.png'
 
 image = cv2.imread(file)
-# image = imutils.resize(image, width=510)
-#_, thresh = cv2.threshold(image, threshold, 255, cv2.THRESH_BINARY)
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 inverted = cv2.bitwise_not(gray)
