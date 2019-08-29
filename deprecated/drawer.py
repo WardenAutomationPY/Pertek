@@ -21,7 +21,7 @@ def Drawer(img):
 	cv2.imshow('', img)
 	cv2.waitKey(0)
 
-file = 'images/b.png'
+file = '..images/b.png'
 file_ = 'images/b8.png'
 
 write = cv2.imread(file_)

@@ -8,7 +8,7 @@ from time import time
 threshold = 225
 area_th = 1000
 
-file = 'images/a.png'
+file = '../images/modelA.png'
 #file_ = 'images/rotated_a.png'
 
 image = cv2.imread(file, cv2.IMREAD_GRAYSCALE)
